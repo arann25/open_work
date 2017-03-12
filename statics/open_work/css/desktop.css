@@ -1,4 +1,4 @@
-@media screen and (min-width: 501px) {
+@media (min-width: 501px) {
   [data-role='collapsible'] {
     font-size: 15px; }
     [data-role='collapsible'] h2 {
@@ -169,6 +169,9 @@
 
   .part_A_page_3 {
     width: 91%; }
+
+  .part_C_navbar_two p.open {
+    width: 90%; }
 
   .part_C_box {
     font-size: 25px;

@@ -113,9 +113,9 @@ $(document).ready(function() {
 
       $(".part_C_q2 .yes").on('click', function(){
         if (k < 500){
-          $(".part_C_q3").html("<hr>3. 唔小心受傷都系工傷，需要保障<button>繼續</button>" ).enhanceWithin()// <!-- if 工傷者，進入工傷check box -->
+          $(".part_C_q3").html("<hr>《僱員補償條例》界定工傷為工作期間因工受傷及在惡劣天氣期間上下班受傷。如你是在這些情況下受傷，應屬工傷。<p>記住，不論是因為自己還是他人失誤，只要因工受傷就是工傷，受到法律保障。同時，受了工傷必須按照法律程序索償，千萬不要私下解決。因為傷患可大可小，手尾長的話醫療費用龐大，若私下解決，經常都得不到足以支付醫療費用和養病期間生活費的賠償。</p><button>繼續</button>" ).enhanceWithin()// <!-- if 工傷者，進入工傷check box -->
         } else{
-          $(".part_C_q3").html("<hr>3. 唔小心受傷都系工傷，需要保障<button>繼續</button>" )
+          $(".part_C_q3").html("<hr><div class='paragraph'>《僱員補償條例》界定工傷為工作期間因工受傷及在惡劣天氣期間上下班受傷。如你是在這些情況下受傷，應屬工傷。<p>記住，不論是因為自己還是他人失誤，只要因工受傷就是工傷，受到法律保障。同時，受了工傷必須按照法律程序索償，千萬不要私下解決。因為傷患可大可小，手尾長的話醫療費用龐大，若私下解決，經常都得不到足以支付醫療費用和養病期間生活費的賠償。</p></div><button>繼續</button>" )
         }// if k > 500
 
         $(".part_C_q3").show();
@@ -123,9 +123,9 @@ $(document).ready(function() {
 
       $(".part_C_q2 .no").on('click', function(){
         if (k < 500){
-          $(".part_C_q3").html("<hr>3. 彈出求助電話，叫佢問清楚佢個情況算唔算工傷<button>繼續</button>" ).enhanceWithin()// <!-- if 工傷者，進入工傷check box -->
+          $(".part_C_q3").html("<hr>《僱員補償條例》界定工傷為工作期間因工受傷及在惡劣天氣期間上下班受傷。對於其他情況是否屬於工傷，我們建議你致電勞工團體查詢。<br>工業傷亡權益會：<br>街坊工友服務處：2410 0360<p>記住，不論是因為自己還是他人失誤，只要因工受傷就是工傷，受到法律保障。同時，受了工傷必須按照法律程序索償，千萬不要私下解決。因為傷患可大可小，手尾長的話醫療費用龐大，若私下解決，經常都得不到足以支付醫療費用和養病期間生活費的賠償。</p><button>繼續</button>" ).enhanceWithin()// <!-- if 工傷者，進入工傷check box -->
         } else{
-          $(".part_C_q3").html("<hr>3. 彈出求助電話，叫佢問清楚佢個情況算唔算工傷<button>繼續</button>" )
+          $(".part_C_q3").html("<hr><div class='paragraph'>《僱員補償條例》界定工傷為工作期間因工受傷及在惡劣天氣期間上下班受傷。對於其他情況是否屬於工傷，我們建議你致電勞工團體查詢。<br>工業傷亡權益會：<br>街坊工友服務處：2410 0360<p>記住，不論是因為自己還是他人失誤，只要因工受傷就是工傷，受到法律保障。同時，受了工傷必須按照法律程序索償，千萬不要私下解決。因為傷患可大可小，手尾長的話醫療費用龐大，若私下解決，經常都得不到足以支付醫療費用和養病期間生活費的賠償。</p></div><button>繼續</button>" )
         }// if k > 500
 
         $(".part_C_q3").show();
@@ -137,9 +137,9 @@ $(document).ready(function() {
     $(".part_C_q1 .no").click(function(){
       $(".part_C_q2, .part_C_q3").empty()
       if (k < 500){
-        $(".part_C_q2").html("<hr>工傷者在追討過程中極需要家人支援<button class='continue'>繼續</button>").enhanceWithin()// <!-- if 工傷者，進入工傷check box -->
+        $(".part_C_q2").html("<hr>工傷者的壓力很大。一方面身體承受痛楚和不便，另一方面失去收入，還有可能需要透過長時間訴訟向僱主追討賠償。這時家人的支持便非常重要，家人的陪伴可讓工傷者放鬆一點度過難關。<br><button class='continue'>繼續</button>").enhanceWithin()// <!-- if 工傷者，進入工傷check box -->
       } else{
-        $(".part_C_q2").html("<hr>工傷者在追討過程中極需要家人支援<button class='continue'>繼續</button>")
+        $(".part_C_q2").html("<hr><div class='paragraph'>工傷者的壓力很大。一方面身體承受痛楚和不便，另一方面失去收入，還有可能需要透過長時間訴訟向僱主追討賠償。這時家人的支持便非常重要，家人的陪伴可讓工傷者放鬆一點度過難關。</div><br><button class='continue'>繼續</button>")
       }// if k > 500
 
 

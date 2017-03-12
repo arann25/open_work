@@ -25,7 +25,8 @@ def main_page(request):
     return render(request, 'logined_page.html')
 
 def desktop(request):
-    return render(request, 'combine_desktop.html')
+    model = Jobs.objects.all()
+    return render(request, 'testing.html', {'model':model})
 
 def article_detail(request, pk, slug):
     post = Jobs.objects.get(pk=pk)

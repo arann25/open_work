@@ -22,6 +22,8 @@ urlpatterns = [
     url(r'^labour_law$', labour_law, name="labour_law"),
 
     url(r'^desktop$', desktop, name="desktop"),
+
+
     url(r'^post/(?P<slug>[\w-]+)/(?P<pk>\d+)/$', article_detail, name='article_detail'),
     # url(r'^post/(?P<pk>\d+)/$', article_detail, name='article_detail'),
 ]
